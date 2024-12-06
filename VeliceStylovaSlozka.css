@@ -5,6 +5,10 @@
     animation-iteration-count: infinite;
 }
 
+.ZimniKapitola {
+    font-family: fantasy;
+}
+
 @keyframes animation {
     0% {
         color: rgb(0, 255, 0);
@@ -21,6 +25,26 @@
 }
 
 .LOWbtu {
-    width: 10%;
+    width: 512px;
     height: auto;
+    animation: animation02 linear 1s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation02 {
+    0% {
+        width: 512px;
+        height: 512px;
+        padding-top: 0;
+    }
+    50% {
+        width: 502px;
+        padding-top: 254px;
+        height: 242px;
+    }
+    100% {
+        width: 512px;
+        height: 512px;
+        padding-top: 0;
+    }
 }
