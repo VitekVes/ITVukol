@@ -1,0 +1,22 @@
+.veliceCoolFOnd {
+    font-family: fantasy;
+    animation: animation linear 5s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    0% {
+        color: green;
+    }
+    50% {
+        color: blue;
+    }
+    75%{
+        color: red;
+    }
+}
+
+.LOWbtu {
+    width: 10%;
+    height: auto;
+}
