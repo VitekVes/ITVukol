@@ -1,18 +1,19 @@
 .veliceCoolFOnd {
     font-family: fantasy;
+    color: greenyellow;
     animation: animation linear 5s ;
     animation-iteration-count: infinite;
 }
 
 @keyframes animation {
     0% {
-        color: green;
+        color: rgb(0, 255, 0);
     }
     50% {
-        color: blue;
+        color: rgb(19, 137, 255);
     }
     75%{
-        color: red;
+        color: rgb(255, 0, 0);
     }
 }
 
